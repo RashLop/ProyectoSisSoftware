@@ -1,0 +1,20 @@
+Lista de Funcionalidades.-
+-Mostrar la tarifa base 10.00 Bs 
+-Calcular el aumento de la tarifa en base de la tarifa nocturna de las politicas de empresa 
+-Que solo se pueda hasta 50 Bs como tope maximo 
+-Redondeo de la tarifa final hacia arriba
+-Se calcula el cobro final y redondeo monetario a dos decimales 
+-Se debe validar que la hora de salida no sea anterior a la de entrada
+
+
+Funcionalidades Basicas 
+ **Registrar hora de ingreso y Registrar hora de salida 
+ **Validar que la hora de salida no sea anterior a la hora de entrada 
+ **Redondear siempre hacia arriba al cobrar por hora o fraccion 
+ **Mostrar Monto total con dos decimales 
+Funcionalidades a agregar 
+ ***Detectar rango nocturno de 22:00 - 06:00
+ ***Aplicar tarifa nocturna correctamente 
+ ***Identificar si la estudia cruza mas de un dia y dividir el calculo por dias 
+ *** reemplzar el calculo normal por una penalidad de 80 Bs si se pierde el ticket 
+   
