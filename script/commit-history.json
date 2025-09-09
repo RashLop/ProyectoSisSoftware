@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-09-09T16:10:18.000Z",
+      "message": "feat: Se ha agregado la funcion de mostrar, se ingresan las horas de entrada y salida y en el index.html se ha cambiado el codigo para ingresar medicante datetime-local",
+      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 36,
+      "additions": 26,
+      "deletions": 10,
+      "date": "2025-09-09"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
