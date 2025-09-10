@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3bfb77ff9b916ce9c5bce243935692c6c41c9afb",
     "author": "RashLop",
     "commit": {
       "date": "2025-09-10T00:02:17.000Z",
       "message": "feat: Se valida que la entrada y salida no sean en la misma hora",
-      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/HEAD"
+      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/3bfb77ff9b916ce9c5bce243935692c6c41c9afb"
     },
     "stats": {
       "total": 8,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-09-10T00:30:44.000Z",
+      "message": "feat: Se agrego la funcionalidad para validar si la hora de salida es anterior a la de entrada",
+      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 11,
+      "deletions": 2,
+      "date": "2025-09-10"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }
