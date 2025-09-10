@@ -39,5 +39,13 @@ describe("TicketParking", () => {
         let ticket = new ticketParking(test,test2); 
         expect(ticket.calcular()).toEqual(10); 
     })
+
+      //Mostrar la tarifa base 20.00 Bs la hora
+    it("Se debe de calcular la tarifa basica de una hora", () => {
+        let test = "2025-09-09T10:30";
+        let test2 = "2025-09-08T12:30";
+        let ticket = new ticketParking(test,test2); 
+        expect(ticket.calcular()).toEqual(20); 
+    })
     
 });  

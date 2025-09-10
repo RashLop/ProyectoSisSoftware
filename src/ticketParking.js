@@ -11,6 +11,12 @@ export default class ticketParking
     "De " + this.Entrada.toLocaleString('es-BO', { hour12: false }) + " hasta " + this.Salida.toLocaleString('es-BO', { hour12: false }); 
     }
     calcular(){
-        return 10; 
+        let minutosEntrada = this.Entrada.getHours() * 60 + this.Entrada.getMinutes(); 
+        let minutosSalida = this.Salida.getHours() * 60 + this.Salida.getMinutes(); 
+        
+        let dif = minutosSalida - minutosEntrada;
+        let horasDecimales = dif / 60;
+        
+        return 10 * horasDecimales; 
     }
 }

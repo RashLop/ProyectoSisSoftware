@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9ef761b2288e6662d8b9085464e426e209e69c47",
     "author": "RashLop",
     "commit": {
       "date": "2025-09-10T01:08:27.000Z",
       "message": "feat: Se ha agregado la funcion de calcular tarifa, te devuelve la tarifa base que son 10 bs. Se ha cambiado solo el nombre de la funcion mostrar a mostrarFechas, para mas legibilidad del codigo",
-      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/HEAD"
+      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/9ef761b2288e6662d8b9085464e426e209e69c47"
     },
     "stats": {
       "total": 21,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-09-10T02:33:38.000Z",
+      "message": "feat: Se ha agregado el calculo de tarifa por hora",
+      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 15,
+      "deletions": 1,
+      "date": "2025-09-10"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }
