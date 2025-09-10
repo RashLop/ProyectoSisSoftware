@@ -16,7 +16,6 @@ export default class ticketParking
         
         let dif = minutosSalida - minutosEntrada;
         let horasDecimales = dif / 60;
-        
-        return 10 * horasDecimales; 
+        return  Math.round(horasDecimales) * 10; 
     }
 }
