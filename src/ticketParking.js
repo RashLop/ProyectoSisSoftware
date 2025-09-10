@@ -18,4 +18,9 @@ export default class ticketParking
         let horasDecimales = dif / 60;
         return  Math.ceil(horasDecimales) * 10; 
     }
+
+    Tarifa()
+    {
+        return Number(this.calcular().toFixed(2)); 
+    }
 }
