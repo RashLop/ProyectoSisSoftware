@@ -51,7 +51,14 @@ describe("TicketParking", () => {
      //**Redondear siempre hacia arriba al cobrar por hora o fraccion 
     it("Se debe de calcular la tarifa basica de una hora, pero redondeando hacia arriba", () => {
         let test = "2025-09-09T10:00";
-        let test2 = "2025-09-08T12:30";
+        let test2 = "2025-09-09T12:30";
+        let ticket = new ticketParking(test,test2); 
+        expect(ticket.calcular()).toEqual(30); 
+    })
+
+        it("Se debe de calcular la tarifa basica de una hora, pero redondeando hacia arriba", () => {
+        let test = "2025-09-09T10:15";
+        let test2 = "2025-09-09T12:30";
         let ticket = new ticketParking(test,test2); 
         expect(ticket.calcular()).toEqual(30); 
     })

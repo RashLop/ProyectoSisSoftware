@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f003236fb6a8a3dc4c3fc66d1c9f2690d1ce7799",
     "author": "RashLop",
     "commit": {
       "date": "2025-09-10T02:48:16.000Z",
       "message": "feat: se calcula la tarifa por horas, redondeando el decimal siempre hacia arriba",
-      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/HEAD"
+      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/f003236fb6a8a3dc4c3fc66d1c9f2690d1ce7799"
     },
     "stats": {
       "total": 12,
@@ -148,6 +148,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-09-10T02:56:17.000Z",
+      "message": "fix: se arreglo un error al redondear hacia arriba la tarifa por hora",
+      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 12,
+      "deletions": 5,
+      "date": "2025-09-10"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }
