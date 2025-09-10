@@ -1,10 +1,13 @@
+export default class ticketParking
+{
+    constructor(horaEntrada, horaSalida){
+        this.Entrada =  new Date(horaEntrada);
+        this.Salida = new Date(horaSalida); 
+    }
+    mostrar(){
 
-function mostrar(horaEntrada, horaSalida){
-    let Entrada = new Date (horaEntrada); 
-    let Salida = new Date (horaSalida); 
-    return Entrada.getTime() === Salida.getTime()? "Error, no se puede ingresar fechas iguales": 
-    Salida.getTime() < Entrada.getTime()? "Error, la hora de salida no puede ser anterior a la de entrada" : 
-    "De " + Entrada.toLocaleString('es-BO', { hour12: false }) + " hasta " + Salida.toLocaleString('es-BO', { hour12: false }); 
+    return this.Entrada.getTime() === this.Salida.getTime()? "Error, no se puede ingresar fechas iguales": 
+    this.Salida.getTime() < this.Entrada.getTime()? "Error, la hora de salida no puede ser anterior a la de entrada" : 
+    "De " + this.Entrada.toLocaleString('es-BO', { hour12: false }) + " hasta " + this.Salida.toLocaleString('es-BO', { hour12: false }); 
+    }
 }
-
-export default mostrar; 
