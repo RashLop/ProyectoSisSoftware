@@ -15,5 +15,10 @@ describe("TicketParking", () => {
         expect(mostrar(test, test2)).toEqual("De 9/9/2025, 10:30:00 hasta 9/9/2025, 10:50:00");  
     }); 
 
+    it("al ingresar datos similares, lanzar un mensaje de error", () => {
+        let test = "2025-09-09T10:30";
+        expect(mostrar(test, test)).toEqual("Error, no se pude ingresar fechas iguales"); 
+    });
+
     
 });  

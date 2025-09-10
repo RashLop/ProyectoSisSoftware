@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ff597a077d0a2512fe2a06f9eb40e4792343d9d9",
     "author": "RashLop",
     "commit": {
       "date": "2025-09-09T23:56:17.000Z",
       "message": "feat: ahora se puede poner cualquier hora en el formato de 24 hrs",
-      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/HEAD"
+      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/ff597a077d0a2512fe2a06f9eb40e4792343d9d9"
     },
     "stats": {
       "total": 42,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-09-10T00:02:17.000Z",
+      "message": "feat: Se valida que la entrada y salida no sean en la misma hora",
+      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2025-09-10"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }

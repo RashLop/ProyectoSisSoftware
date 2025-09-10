@@ -9,6 +9,7 @@ Lista de Funcionalidades.-
 
 Funcionalidades Basicas 
  **Registrar hora de ingreso y Registrar hora de salida 
+ **validar que la hora entrada y salida no sean la misma
  **Validar que la hora de salida no sea anterior a la hora de entrada 
  **Redondear siempre hacia arriba al cobrar por hora o fraccion 
  **Mostrar Monto total con dos decimales 
