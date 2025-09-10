@@ -69,6 +69,15 @@ describe("TicketParking", () => {
         let test = "2025-09-09T10:15";
         let test2 = "2025-09-09T12:30";
         let ticket = new ticketParking(test,test2); 
-        expect(ticket.Tarifa()).toEqual(30.00); 
+        expect(ticket.tarifaDiaria()).toEqual(30.00); 
+    })
+
+    
+        // **Limite diario de 50 bs como tope maximo, o sea 5 horas.
+        it("Se debe de calcular la tarifa basica de una hora, pero redondeando hacia arriba", () => {
+        let test = "2025-09-09T10:00";
+        let test2 = "2025-09-09T15:30";
+        let ticket = new ticketParking(test,test2); 
+        expect(ticket.tarifaDiaria()).toEqual("Error, el limite diario son solo 50.00 bs"); 
     })
 });  

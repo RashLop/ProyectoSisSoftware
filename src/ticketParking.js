@@ -19,8 +19,9 @@ export default class ticketParking
         return  Math.ceil(horasDecimales) * 10; 
     }
 
-    Tarifa()
+    tarifaDiaria()
     {
-        return Number(this.calcular().toFixed(2)); 
+
+        return this.calcular() <= 50? Number(this.calcular().toFixed(2)): "Error, el limite diario son solo 50.00 bs"; 
     }
 }

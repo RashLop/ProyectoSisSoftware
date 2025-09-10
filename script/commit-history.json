@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1b10e6ad3f64c3f0b99398658fdc7c7d2210a3fe",
     "author": "RashLop",
     "commit": {
       "date": "2025-09-10T20:46:30.000Z",
       "message": "feat: se devuelve los valores de tarifa con dos decimales, 30 a 30.00",
-      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/HEAD"
+      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/1b10e6ad3f64c3f0b99398658fdc7c7d2210a3fe"
     },
     "stats": {
       "total": 14,
@@ -186,6 +186,25 @@
     },
     "coverage": 100,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-09-10T20:58:10.000Z",
+      "message": "feat: se ha agregado una verificacion para la tarifa diaria como tope maximo 50",
+      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 13,
+      "deletions": 3,
+      "date": "2025-09-10"
+    },
+    "coverage": 100,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }
