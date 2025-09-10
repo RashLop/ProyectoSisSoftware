@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2aabd59b3da9c4233aec1c87bb20f5819b4ebd31",
     "author": "RashLop",
     "commit": {
       "date": "2025-09-10T00:52:01.000Z",
       "message": "refact: Se ha cambiado el codigo de ticketParking, ahora la funcion mostrar se encuentra en una clase para mas escalabilidad del codigo a futuro",
-      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/HEAD"
+      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/2aabd59b3da9c4233aec1c87bb20f5819b4ebd31"
     },
     "stats": {
       "total": 35,
@@ -91,6 +91,25 @@
     },
     "coverage": 100,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-09-10T01:08:27.000Z",
+      "message": "feat: Se ha agregado la funcion de calcular tarifa, te devuelve la tarifa base que son 10 bs. Se ha cambiado solo el nombre de la funcion mostrar a mostrarFechas, para mas legibilidad del codigo",
+      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 16,
+      "deletions": 5,
+      "date": "2025-09-10"
+    },
+    "coverage": 100,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }
