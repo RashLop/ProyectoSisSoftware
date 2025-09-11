@@ -47,7 +47,11 @@ export default class ticketParking
     }
 
     generarTicket(){
-        return "{entrada: 2025-09-09T18:00, salida: 2025-09-09T23:00, detalle: De 09/09/2025 18:00 hasta 09/09/2025 23:00, total: 46.00}"; 
+        let ticket =  {
+            detalle: this.mostrarFechas(),                   
+            total: this.calcular().toFixed(2)                
+        }; 
+        return  JSON.stringify(ticket,null,2);
     }
 
 }

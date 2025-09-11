@@ -102,8 +102,21 @@ describe("TicketParking", () => {
         let entrada  = "2025-09-09T18:00";
         let salida = "2025-09-09T23:00";
         let ticket = new ticketParking(entrada, salida);
-        let test = "{entrada: 2025-09-09T18:00, salida: 2025-09-09T23:00, detalle: De 09/09/2025 18:00 hasta 09/09/2025 23:00, total: 46.00}"
-        expect(ticket.generarTicket()).toEqual(test); 
+        let test = {
+        detalle: "De 9/9/2025, 18:00:00 hasta 9/9/2025, 23:00:00",
+        total: "46.00"
+        }
+        expect(ticket.generarTicket()).toEqual(JSON.stringify(test,null,2)); 
     }); 
     
+        it("Se debe de generar un ticket basico con la entrada y salida del parking", () => {       
+        let entrada  = "2025-09-09T20:00";
+        let salida = "2025-09-09T23:00";
+        let ticket = new ticketParking(entrada, salida);
+        let test = {
+        detalle: "De 9/9/2025, 20:00:00 hasta 9/9/2025, 23:00:00",
+        total: "26.00"
+        }
+        expect(ticket.generarTicket()).toEqual(JSON.stringify(test,null,2)); 
+    }); 
 });  
