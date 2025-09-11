@@ -11,7 +11,7 @@
 
       <label for="hora_salida">HoraSalida:</label>
       <input type="datetime-local" id="hora_salida" />
-      <input type="submit" value="Ingresar datos" id="ingresar-button" />
+      <input type="submit" value="generar Ticket" id="ingresar-button" />
 
     </form>
 
@@ -20,3 +20,17 @@
     <script type="module" src="./src/presenter.js"></script>
   </body>
 </html>
+
+<style>
+  .ticket {
+    display : grid; 
+    grid-template-columns: 140px 180px; 
+    gap: 8px 12px; 
+    align-items: center;
+  }
+  .ticket input[type= "submit"]{
+    grid-column: 1 / -1;
+    justify-self: start;
+  }
+
+</style>

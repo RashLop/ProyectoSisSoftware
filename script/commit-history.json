@@ -247,17 +247,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "eaf9bfdde263bd44d169b36a6976fd236795287a",
     "author": "RashLop",
     "commit": {
       "date": "2025-09-11T01:10:45.000Z",
       "message": "feat: ahora se puede generar un ticket basico en formato JSON",
-      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/HEAD"
+      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/eaf9bfdde263bd44d169b36a6976fd236795287a"
     },
     "stats": {
       "total": 23,
       "additions": 20,
       "deletions": 3,
+      "date": "2025-09-11"
+    },
+    "coverage": 100,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-09-11T01:19:52.000Z",
+      "message": "feat: se ha modificado el presenter y index para recibir los datos generados",
+      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 52,
+      "additions": 41,
+      "deletions": 11,
       "date": "2025-09-11"
     },
     "coverage": 100,
