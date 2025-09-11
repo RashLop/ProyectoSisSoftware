@@ -91,9 +91,19 @@ describe("TicketParking", () => {
 
         //Registrar hora de ingreso y Registrar hora de salida 
     it("Se debe de mostrar la hora de entrada y salida", () => {
-        let test = "2025-09-09T22:00";
-        let test2 = "2025-09-10T06:00";
+        let test = "2025-09-09T18:00";
+        let test2 = "2025-09-09T23:00";
         let ticket = new ticketParking(test,test2); 
-        expect(ticket.mostrarFechas()).toEqual("De 9/9/2025, 22:00:00 hasta 10/9/2025, 06:00:00");  
+        expect(ticket.tarifaDiaria()).toEqual(46); ;  
     });
+
+    //GenerarunticketBasico
+    it("Se debe de generar un ticket basico con la entrada y salida del parking", () => {       
+        let entrada  = "2025-09-09T18:00";
+        let salida = "2025-09-09T23:00";
+        let ticket = new ticketParking(entrada, salida);
+        let test = "{entrada: 2025-09-09T18:00, salida: 2025-09-09T23:00, detalle: De 09/09/2025 18:00 hasta 09/09/2025 23:00, total: 46.00}"
+        expect(ticket.generarTicket()).toEqual(test); 
+    }); 
+    
 });  

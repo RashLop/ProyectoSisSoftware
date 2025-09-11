@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "57614b93ae4b3684162796bef343324814bbbfef",
     "author": "RashLop",
     "commit": {
       "date": "2025-09-11T00:37:23.000Z",
       "message": "feat: se han agregado las horas nocturnas y su respectiva tarifa",
-      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/HEAD"
+      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/57614b93ae4b3684162796bef343324814bbbfef"
     },
     "stats": {
       "total": 56,
@@ -224,6 +224,25 @@
     },
     "coverage": 100,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-09-11T00:57:05.000Z",
+      "message": "feat: se agregado la funcion de generar un ticket basico",
+      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 17,
+      "deletions": 3,
+      "date": "2025-09-11"
+    },
+    "coverage": 100,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }
