@@ -35,7 +35,7 @@ describe("TicketParking", () => {
   //Mostrar la tarifa base 10.00 Bs la hora
     it("Se debe de calcular la tarifa basica de una hora", () => {
         let test = "2025-09-09T10:30";
-        let test2 = "2025-09-08T11:30";
+        let test2 = "2025-09-09T11:30";
         let ticket = new ticketParking(test,test2); 
         expect(ticket.calcular()).toEqual(10); 
     })
@@ -43,7 +43,7 @@ describe("TicketParking", () => {
       //Mostrar la tarifa base 20.00 Bs la hora
     it("Se debe de calcular la tarifa basica de una hora", () => {
         let test = "2025-09-09T10:30";
-        let test2 = "2025-09-08T12:30";
+        let test2 = "2025-09-09T12:30";
         let ticket = new ticketParking(test,test2); 
         expect(ticket.calcular()).toEqual(20); 
     })
@@ -80,4 +80,20 @@ describe("TicketParking", () => {
         let ticket = new ticketParking(test,test2); 
         expect(ticket.tarifaDiaria()).toEqual("Error, el limite diario son solo 50.00 bs"); 
     })
+
+    // **Las horas nocturnas tienen diferente tarifa
+        it("Se debe de calcular la tarifa basica de una hora, pero redondeando hacia arriba", () => {
+        let test = "2025-09-09T22:00";
+        let test2 = "2025-09-10T06:00";
+        let ticket = new ticketParking(test,test2); 
+        expect(ticket.tarifaDiaria()).toEqual(48); 
+    })
+
+        //Registrar hora de ingreso y Registrar hora de salida 
+    it("Se debe de mostrar la hora de entrada y salida", () => {
+        let test = "2025-09-09T22:00";
+        let test2 = "2025-09-10T06:00";
+        let ticket = new ticketParking(test,test2); 
+        expect(ticket.mostrarFechas()).toEqual("De 9/9/2025, 22:00:00 hasta 10/9/2025, 06:00:00");  
+    });
 });  

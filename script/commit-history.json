@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7ad6e45359e7024ddf2132be71f6ca55625c9f6c",
     "author": "RashLop",
     "commit": {
       "date": "2025-09-10T20:58:10.000Z",
       "message": "feat: se ha agregado una verificacion para la tarifa diaria como tope maximo 50",
-      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/HEAD"
+      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/7ad6e45359e7024ddf2132be71f6ca55625c9f6c"
     },
     "stats": {
       "total": 16,
@@ -205,6 +205,25 @@
     },
     "coverage": 100,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-09-11T00:37:23.000Z",
+      "message": "feat: se han agregado las horas nocturnas y su respectiva tarifa",
+      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 56,
+      "additions": 47,
+      "deletions": 9,
+      "date": "2025-09-11"
+    },
+    "coverage": 100,
+    "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"
   }
