@@ -3,6 +3,7 @@ export default class ticketParking
     constructor(horaEntrada, horaSalida){
         this.Entrada =  new Date(horaEntrada);
         this.Salida = new Date(horaSalida); 
+        this.Estado = true; 
     }
 
     mostrarFechas(){
@@ -43,7 +44,7 @@ export default class ticketParking
     tarifaDiaria()
     {
 
-        return this.calcular() <= 50? Number(this.calcular().toFixed(2)): "Error, el limite diario son solo 50.00 bs"; 
+        return this.Estado === false? 80.00: this.calcular() <= 50? Number(this.calcular().toFixed(2)): "Error, el limite diario son solo 50.00 bs"; 
     }
 
     generarTicket(){

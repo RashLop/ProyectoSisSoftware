@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c50f1d9166b17dfdd39142ad6d0d693e9816dc9d",
     "author": "RashLop",
     "commit": {
       "date": "2025-09-11T01:19:52.000Z",
       "message": "feat: se ha modificado el presenter y index para recibir los datos generados",
-      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/HEAD"
+      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/c50f1d9166b17dfdd39142ad6d0d693e9816dc9d"
     },
     "stats": {
       "total": 52,
@@ -281,6 +281,25 @@
     },
     "coverage": 100,
     "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-09-11T01:27:57.000Z",
+      "message": "feat: se ha validado que si el ticket se reporta a perdido, la tarifa es 80",
+      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2025-09-11"
+    },
+    "coverage": 100,
+    "test_count": 16,
     "failed_tests": 0,
     "conclusion": "success"
   }

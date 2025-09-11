@@ -119,4 +119,13 @@ describe("TicketParking", () => {
         }
         expect(ticket.generarTicket()).toEqual(JSON.stringify(test,null,2)); 
     }); 
+        //*** reemplzar el calculo normal por una penalidad de 80 Bs si se pierde el ticket 
+        it("Se perdio el ticket", () => {       
+        let entrada  = "2025-09-09T20:00";
+        let salida = "2025-09-09T23:00";
+        let ticket = new ticketParking(entrada, salida);
+        ticket.Estado = false; 
+        expect(ticket.tarifaDiaria()).toEqual(80.00); 
+    }); 
+
 });  
