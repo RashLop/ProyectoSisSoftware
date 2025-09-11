@@ -285,17 +285,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a222b9e5576362b2c57ae9ad025af1f8ab9fa69c",
     "author": "RashLop",
     "commit": {
       "date": "2025-09-11T01:27:57.000Z",
       "message": "feat: se ha validado que si el ticket se reporta a perdido, la tarifa es 80",
-      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/HEAD"
+      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/a222b9e5576362b2c57ae9ad025af1f8ab9fa69c"
     },
     "stats": {
       "total": 12,
       "additions": 11,
       "deletions": 1,
+      "date": "2025-09-11"
+    },
+    "coverage": 100,
+    "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "RashLop",
+    "commit": {
+      "date": "2025-09-11T01:41:18.000Z",
+      "message": "refactor: se ha cambiado codigo y agregado codigo para agregar el reporte de un ticket perdido",
+      "url": "https://github.com/RashLop/ProyectoSisSoftware/commit/HEAD"
+    },
+    "stats": {
+      "total": 62,
+      "additions": 43,
+      "deletions": 19,
       "date": "2025-09-11"
     },
     "coverage": 100,

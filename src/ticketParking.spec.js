@@ -94,7 +94,7 @@ describe("TicketParking", () => {
         let test = "2025-09-09T18:00";
         let test2 = "2025-09-09T23:00";
         let ticket = new ticketParking(test,test2); 
-        expect(ticket.tarifaDiaria()).toEqual(46); ;  
+        expect(ticket.tarifaDiaria()).toEqual(46.00); ;  
     });
 
     //GenerarunticketBasico

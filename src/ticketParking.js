@@ -48,9 +48,10 @@ export default class ticketParking
     }
 
     generarTicket(){
+        let resultado = this.tarifaDiaria();
         let ticket =  {
             detalle: this.mostrarFechas(),                   
-            total: this.calcular().toFixed(2)                
+            total: typeof resultado === "number" ? resultado.toFixed(2) : resultado              
         }; 
         return  JSON.stringify(ticket,null,2);
     }
